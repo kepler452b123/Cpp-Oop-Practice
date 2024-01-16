@@ -1,0 +1,29 @@
+Header files:
+Use 
+"ifndef _FILE_NAME_. _FILE_NAME_ is just the file name in all caps and the . is replaced with _.
+For example, take Cars.h, it would be 
+#ifndef CARS_H 
+#define CARS_H
+{body}
+#endif
+
+Procedural programming: creating functions that perform operations on data.
+OOP: creating objects that contain both functions and data.
+
+Class syntax:
+Use "class" keyword to make a class in cpp
+class myClass{
+	public:
+		int myNum
+		string myString
+};
+myNum, myString are attributes. "public" is an access specifier. It signifies that the following methods and attributes 
+are publicly accessible 
+
+Workflow to execute cpp code in linux: 
+g++ {filename.cpp} -o {executable file} - this compiles the file and sets the output as the exec file. No .exe needed.
+./{executable file} - this executes the code and sends the output to the terminal.
+Note that if a file is updated, you need to save the file and recompile it using g++ for the changes to take place. 
+
+
+
